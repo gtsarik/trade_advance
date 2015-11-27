@@ -1,0 +1,41 @@
+{% load static from staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Test task for Trade Advance - {% block meta_title %}{% endblock meta_title %}</title>
+
+    <!-- meta -->
+    <meta name="description" value="Development Center My Life" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- css -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bootstrap/3.3.0/css/bootstrap.min.css" />
+
+    {% block extra_css %}{% endblock extra_css %}
+</head>
+
+<body>
+    <!-- Start Container -->
+    <div class="container">
+        <!-- Start Header -->
+        <div class="row-fluid">
+            <div class="col-md-12">
+                <h1>Test task for Trade Advance</h1>
+            </div>
+        </div>
+    </div>
+    <!-- End Header -->
+
+    <!-- Start Content Columns -->
+    {% block content %}{% endblock content %}
+    <!-- End Content Columns -->
+
+    <!-- Javascripts Inclusion -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+</body>
+</html>
