@@ -1,0 +1,20 @@
+# python
+*.pyc
+*.pyo
+
+# editors
+*.mo
+*~
+*.egg-info
+
+# logs
+*.log
+
+# dev
+.env
+
+# database
+*.db
+
+#local settings
+trade_advance/local_settings.py
