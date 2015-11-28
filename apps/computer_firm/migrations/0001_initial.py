@@ -42,10 +42,11 @@ class Migration(migrations.Migration):
             name='Pc',
             fields=[
                 ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+                ('model', models.CharField(max_length=10)),
                 ('speed', models.IntegerField()),
                 ('ram', models.IntegerField()),
                 ('hd', models.FloatField()),
-                ('model', models.CharField(max_length=10)),
+                ('cd', models.CharField(max_length=10)),
                 ('price', models.DecimalField(default=0, null=True, max_digits=12, decimal_places=2)),
             ],
             options={

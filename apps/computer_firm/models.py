@@ -36,11 +36,11 @@ class Laptop(models.Model):
 
 
 class Pc(models.Model):
-    model = models.CharField(max_length=50)
+    model = models.CharField(max_length=10)
     speed = models.IntegerField()
     ram = models.IntegerField()
     hd = models.FloatField()
-    model = models.CharField(max_length=10)
+    cd = models.CharField(max_length=10)
     price = models.DecimalField(
         max_digits=12,
         decimal_places=2,
@@ -54,7 +54,6 @@ class Pc(models.Model):
 
 class Printer(models.Model):
     model = models.CharField(max_length=50)
-    color = models.CharField(max_length=1)
     color = models.CharField(max_length=1)
     type_printer = models.CharField(max_length=50)
     price = models.DecimalField(

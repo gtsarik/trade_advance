@@ -1,0 +1,473 @@
+[
+	{
+        "model": "computer_firm.marker",
+        "pk": 1,
+        "fields": {
+            "name": "A"
+        }
+    },
+    {
+        "model": "computer_firm.marker",
+        "pk": 2,
+        "fields": {
+            "name": "B"
+        }
+    },
+    {
+        "model": "computer_firm.marker",
+        "pk": 3,
+        "fields": {
+            "name": "C"
+        }
+    },
+    {
+        "model": "computer_firm.marker",
+        "pk": 4,
+        "fields": {
+            "name": "D"
+        }
+    },
+    {
+        "model": "computer_firm.marker",
+        "pk": 5,
+        "fields": {
+            "name": "E"
+        }
+    },
+    {
+        "model": "computer_firm.laptop",
+        "pk": 1,
+        "fields": {
+            "model": "1298",
+            "speed": 350,
+            "ram": 32,
+            "hd": 4,
+            "price": "700",
+            "screen": 11
+        }
+    },
+    {
+        "model": "computer_firm.laptop",
+        "pk": 2,
+        "fields": {
+            "model": "1321",
+            "speed": 500,
+            "ram": 64,
+            "hd": 8,
+            "price": "970",
+            "screen": 12
+        }
+    },
+    {
+        "model": "computer_firm.laptop",
+        "pk": 3,
+        "fields": {
+            "model": "1750",
+            "speed": 750,
+            "ram": 128,
+            "hd": 12,
+            "price": "1200",
+            "screen": 14
+        }
+    },
+    {
+        "model": "computer_firm.laptop",
+        "pk": 4,
+        "fields": {
+            "model": "1298",
+            "speed": 600,
+            "ram": 64,
+            "hd": 10,
+            "price": "1050",
+            "screen": 15
+        }
+    },
+    {
+        "model": "computer_firm.laptop",
+        "pk": 5,
+        "fields": {
+            "model": "1752",
+            "speed": 750,
+            "ram": 128,
+            "hd": 10,
+            "price": "1150",
+            "screen": 14
+        }
+    },
+    {
+        "model": "computer_firm.laptop",
+        "pk": 6,
+        "fields": {
+            "model": "1298",
+            "speed": 450,
+            "ram": 64,
+            "hd": 10,
+            "price": "950",
+            "screen": 12
+        }
+    },
+    {
+        "model": "computer_firm.pc",
+        "pk": 1,
+        "fields": {
+        	"model": "1232",
+            "speed": 500,
+            "ram": 64,
+            "hd": 5,
+            "cd": "12x",
+            "price": "600"
+        }
+    },
+    {
+        "model": "computer_firm.pc",
+        "pk": 2,
+        "fields": {
+        	"model": "1121",
+            "speed": 750,
+            "ram": 128,
+            "hd": 14,
+            "cd": "40x",
+            "price": "850"
+        }
+    },
+    {
+        "model": "computer_firm.pc",
+        "pk": 3,
+        "fields": {
+        	"model": "1233",
+            "speed": 500,
+            "ram": 64,
+            "hd": 5,
+            "cd": "12x",
+            "price": "600"
+        }
+    },
+    {
+        "model": "computer_firm.pc",
+        "pk": 4,
+        "fields": {
+        	"model": "1121",
+            "speed": 600,
+            "ram": 128,
+            "hd": 14,
+            "cd": "40x",
+            "price": "850"
+        }
+    },
+    {
+        "model": "computer_firm.pc",
+        "pk": 5,
+        "fields": {
+        	"model": "1121",
+            "speed": 600,
+            "ram": 128,
+            "hd": 8,
+            "cd": "40x",
+            "price": "850"
+        }
+    },
+    {
+        "model": "computer_firm.pc",
+        "pk": 6,
+        "fields": {
+        	"model": "1233",
+            "speed": 750,
+            "ram": 128,
+            "hd": 20,
+            "cd": "50x",
+            "price": "950"
+        }
+    },
+    {
+        "model": "computer_firm.pc",
+        "pk": 7,
+        "fields": {
+        	"model": "1232",
+            "speed": 500,
+            "ram": 32,
+            "hd": 10,
+            "cd": "12x",
+            "price": "400"
+        }
+    },
+    {
+        "model": "computer_firm.pc",
+        "pk": 8,
+        "fields": {
+        	"model": "1232",
+            "speed": 450,
+            "ram": 64,
+            "hd": 8,
+            "cd": "24x",
+            "price": "350"
+        }
+    },
+    {
+        "model": "computer_firm.pc",
+        "pk": 9,
+        "fields": {
+        	"model": "1232",
+            "speed": 450,
+            "ram": 32,
+            "hd": 10,
+            "cd": "24x",
+            "price": "350"
+        }
+    },
+    {
+        "model": "computer_firm.pc",
+        "pk": 10,
+        "fields": {
+        	"model": "1260",
+            "speed": 500,
+            "ram": 32,
+            "hd": 10,
+            "cd": "12x",
+            "price": "350"
+        }
+    },
+    {
+        "model": "computer_firm.pc",
+        "pk": 11,
+        "fields": {
+        	"model": "1233",
+            "speed": 900,
+            "ram": 128,
+            "hd": 40,
+            "cd": "40x",
+            "price": "980"
+        }
+    },
+    {
+        "model": "computer_firm.pc",
+        "pk": 11,
+        "fields": {
+        	"model": "1233",
+            "speed": 800,
+            "ram": 128,
+            "hd": 20,
+            "cd": "50x",
+            "price": "970"
+        }
+    },
+    {
+        "model": "computer_firm.printer",
+        "pk": 1,
+        "fields": {
+        	"model": "1276",
+            "color": "n",
+            "type_printer": "Laser",
+            "price": "400"
+        }
+    },
+    {
+        "model": "computer_firm.printer",
+        "pk": 2,
+        "fields": {
+        	"model": "1433",
+            "color": "y",
+            "type_printer": "Jet",
+            "price": "270"
+        }
+    },
+    {
+        "model": "computer_firm.printer",
+        "pk": 3,
+        "fields": {
+        	"model": "1433",
+            "color": "y",
+            "type_printer": "Jet",
+            "price": "290"
+        }
+    },
+    {
+        "model": "computer_firm.printer",
+        "pk": 4,
+        "fields": {
+        	"model": "1401",
+            "color": "n",
+            "type_printer": "Matrix",
+            "price": "150"
+        }
+    },
+    {
+        "model": "computer_firm.printer",
+        "pk": 5,
+        "fields": {
+        	"model": "1408",
+            "color": "n",
+            "type_printer": "Matrix",
+            "price": "270"
+        }
+    },
+    {
+        "model": "computer_firm.printer",
+        "pk": 6,
+        "fields": {
+        	"model": "1288",
+            "color": "n",
+            "type_printer": "Laser",
+            "price": "400"
+        }
+    },
+    {
+        "model": "computer_firm.product",
+        "pk": 1,
+        "fields": {
+        	"marker": 2,
+            "type_product": "PC",
+            "content_type": 9,
+            "object_id": 2
+        }
+    },
+    {
+        "model": "computer_firm.product",
+        "pk": 2,
+        "fields": {
+        	"marker": 1,
+            "type_product": "PC",
+            "content_type": 9,
+            "object_id": 7
+        }
+    },
+    {
+        "model": "computer_firm.product",
+        "pk": 3,
+        "fields": {
+        	"marker": 1,
+            "type_product": "PC",
+            "content_type": 9,
+            "object_id": 11
+        }
+    },
+    {
+        "model": "computer_firm.product",
+        "pk": 4,
+        "fields": {
+        	"marker": 5,
+            "type_product": "PC",
+            "content_type": 9,
+            "object_id": 10
+        }
+    },
+    {
+        "model": "computer_firm.product",
+        "pk": 5,
+        "fields": {
+        	"marker": 1,
+            "type_product": "Printer",
+            "content_type": 10,
+            "object_id": 1
+        }
+    },
+    {
+        "model": "computer_firm.product",
+        "pk": 6,
+        "fields": {
+        	"marker": 4,
+            "type_product": "Printer",
+            "content_type": 10,
+            "object_id": 6
+        }
+    },
+    {
+        "model": "computer_firm.product",
+        "pk": 7,
+        "fields": {
+        	"marker": 1,
+            "type_product": "Laptop",
+            "content_type": 7,
+            "object_id": 1
+        }
+    },
+    {
+        "model": "computer_firm.product",
+        "pk": 8,
+        "fields": {
+        	"marker": 3,
+            "type_product": "Laptop",
+            "content_type": 7,
+            "object_id": 2
+        }
+    },
+    {
+        "model": "computer_firm.product",
+        "pk": 9,
+        "fields": {
+        	"marker": 1,
+            "type_product": "Printer",
+            "content_type": 10,
+            "object_id": 4
+        }
+    },
+    {
+        "model": "computer_firm.product",
+        "pk": 10,
+        "fields": {
+        	"marker": 1,
+            "type_product": "Printer",
+            "content_type": 10,
+            "object_id": 5
+        }
+    },
+    {
+        "model": "computer_firm.product",
+        "pk": 11,
+        "fields": {
+        	"marker": 4,
+            "type_product": "Printer",
+            "content_type": 10,
+            "object_id": 2
+        }
+    },
+    {
+        "model": "computer_firm.product",
+        "pk": 12,
+        "fields": {
+        	"marker": 5,
+            "type_product": "Printer",
+            "content_type": 10,
+            "object_id": 3
+        }
+    },
+    {
+        "model": "computer_firm.product",
+        "pk": 13,
+        "fields": {
+        	"marker": 2,
+            "type_product": "Laptop",
+            "content_type": 7,
+            "object_id": 3
+        }
+    },
+    {
+        "model": "computer_firm.product",
+        "pk": 14,
+        "fields": {
+        	"marker": 1,
+            "type_product": "Laptop",
+            "content_type": 7,
+            "object_id": 5
+        }
+    },
+    {
+        "model": "computer_firm.product",
+        "pk": 15,
+        "fields": {
+        	"marker": 5,
+            "type_product": "PC",
+            "content_type": 9,
+            "object_id": 2
+        }
+    },
+    {
+        "model": "computer_firm.product",
+        "pk": 15,
+        "fields": {
+        	"marker": 5,
+            "type_product": "PC",
+            "content_type": 9,
+            "object_id": 3
+        }
+    }
+]
