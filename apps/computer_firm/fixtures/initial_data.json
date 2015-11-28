@@ -90,7 +90,7 @@
             "speed": 750,
             "ram": 128,
             "hd": 10,
-            "price": "1150",
+            "price": "1200",
             "screen": 14
         }
     },
@@ -158,7 +158,7 @@
         "model": "computer_firm.pc",
         "pk": 5,
         "fields": {
-        	"model": "1121",
+        	"model": "2113",
             "speed": 600,
             "ram": 128,
             "hd": 8,
@@ -194,7 +194,7 @@
         "model": "computer_firm.pc",
         "pk": 8,
         "fields": {
-        	"model": "1232",
+        	"model": "2112",
             "speed": 450,
             "ram": 64,
             "hd": 8,
@@ -240,7 +240,7 @@
     },
     {
         "model": "computer_firm.pc",
-        "pk": 11,
+        "pk": 12,
         "fields": {
         	"model": "1233",
             "speed": 800,
@@ -274,7 +274,7 @@
         "model": "computer_firm.printer",
         "pk": 3,
         "fields": {
-        	"model": "1433",
+        	"model": "1434",
             "color": "y",
             "type_printer": "Jet",
             "price": "290"
@@ -315,6 +315,7 @@
         "pk": 1,
         "fields": {
         	"marker": 2,
+        	"model": "1121",
             "type_product": "PC",
             "content_type": 9,
             "object_id": 2
@@ -325,6 +326,7 @@
         "pk": 2,
         "fields": {
         	"marker": 1,
+        	"model": "1232",
             "type_product": "PC",
             "content_type": 9,
             "object_id": 7
@@ -335,6 +337,7 @@
         "pk": 3,
         "fields": {
         	"marker": 1,
+        	"model": "1233",
             "type_product": "PC",
             "content_type": 9,
             "object_id": 11
@@ -345,6 +348,7 @@
         "pk": 4,
         "fields": {
         	"marker": 5,
+        	"model": "1260",
             "type_product": "PC",
             "content_type": 9,
             "object_id": 10
@@ -355,6 +359,7 @@
         "pk": 5,
         "fields": {
         	"marker": 1,
+        	"model": "1276",
             "type_product": "Printer",
             "content_type": 10,
             "object_id": 1
@@ -365,6 +370,7 @@
         "pk": 6,
         "fields": {
         	"marker": 4,
+        	"model": "1288",
             "type_product": "Printer",
             "content_type": 10,
             "object_id": 6
@@ -375,6 +381,7 @@
         "pk": 7,
         "fields": {
         	"marker": 1,
+        	"model": "1298",
             "type_product": "Laptop",
             "content_type": 7,
             "object_id": 1
@@ -385,6 +392,7 @@
         "pk": 8,
         "fields": {
         	"marker": 3,
+        	"model": "1321",
             "type_product": "Laptop",
             "content_type": 7,
             "object_id": 2
@@ -395,6 +403,7 @@
         "pk": 9,
         "fields": {
         	"marker": 1,
+        	"model": "1401",
             "type_product": "Printer",
             "content_type": 10,
             "object_id": 4
@@ -405,6 +414,7 @@
         "pk": 10,
         "fields": {
         	"marker": 1,
+        	"model": "1408",
             "type_product": "Printer",
             "content_type": 10,
             "object_id": 5
@@ -415,6 +425,7 @@
         "pk": 11,
         "fields": {
         	"marker": 4,
+        	"model": "1433",
             "type_product": "Printer",
             "content_type": 10,
             "object_id": 2
@@ -425,6 +436,7 @@
         "pk": 12,
         "fields": {
         	"marker": 5,
+        	"model": "1434",
             "type_product": "Printer",
             "content_type": 10,
             "object_id": 3
@@ -435,6 +447,7 @@
         "pk": 13,
         "fields": {
         	"marker": 2,
+        	"model": "1750",
             "type_product": "Laptop",
             "content_type": 7,
             "object_id": 3
@@ -445,6 +458,7 @@
         "pk": 14,
         "fields": {
         	"marker": 1,
+        	"model": "1752",
             "type_product": "Laptop",
             "content_type": 7,
             "object_id": 5
@@ -455,25 +469,23 @@
         "pk": 15,
         "fields": {
         	"marker": 5,
+        	"model": "2113",
             "type_product": "PC",
             "content_type": 9,
-            "object_id": 2
+            "object_id": 5
         }
     },
     {
         "model": "computer_firm.product",
-        "pk": 15,
+        "pk": 16,
         "fields": {
         	"marker": 5,
+        	"model": "2112",
             "type_product": "PC",
             "content_type": 9,
-            "object_id": 3
+            "object_id": 8
         }
     },
-
-
-
-
     {
         "model": "computer_firm.tickets",
         "pk": 1,

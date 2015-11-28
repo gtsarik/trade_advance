@@ -70,10 +70,22 @@ class Migration(migrations.Migration):
             name='Product',
             fields=[
                 ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+                ('model', models.CharField(max_length=50)),
                 ('type_product', models.CharField(max_length=50)),
                 ('object_id', models.PositiveIntegerField()),
                 ('content_type', models.ForeignKey(to='contenttypes.ContentType')),
                 ('marker', models.ForeignKey(to='computer_firm.Marker')),
+            ],
+            options={
+            },
+            bases=(models.Model,),
+        ),
+        migrations.CreateModel(
+            name='Tickets',
+            fields=[
+                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+                ('name', models.CharField(max_length=20)),
+                ('context', models.TextField()),
             ],
             options={
             },

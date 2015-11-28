@@ -69,13 +69,14 @@ class Printer(models.Model):
 
 class Product(models.Model):
     marker = models.ForeignKey(Marker)
+    model = models.CharField(max_length=50)
     type_product = models.CharField(max_length=50)
     content_type = models.ForeignKey(ContentType)
     object_id = models.PositiveIntegerField()
     content_object = generic.GenericForeignKey('content_type', 'object_id')
 
     def __unicode__(self):
-        return u"%s %s %s" % (self.marker, self.content_object.model, type_product)
+        return u"%s %s %s" % (self.marker, self.content_object.model, self.type_product)
 
 
 class Tickets(models.Model):

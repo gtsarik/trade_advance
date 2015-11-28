@@ -5,9 +5,109 @@
 {% block meta_title %}Home{% endblock meta_title %}
 
 {% block content %}
+    <!-- tickets: condition -->
     <div class="row">
-        <div class="col-md-12">
-            <p>{{ tiket_20 }}</p>
-        </div>
+        {% for ticket in tikets %}
+            <div class="col-md-3">
+                <b>{{ ticket.name }}</b><br />
+                {{ ticket.context }}<br />
+            </div>
+        {% endfor %}
     </div>
+
+    <!-- tickets: decisions -->
+    <div class="row">
+        <!-- ticket 20 -->
+        <div class="col-md-3">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Maker</th>
+                        <th>Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for key in ticket_20 %}
+                        <tr>
+                            {% for n in key %}
+                                <td>{{ n }}</td>
+                            {% endfor %}
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <!-- ticket 24 -->
+        <div class="col-md-3">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>
+                            Model
+                        </th>
+                        <th>
+                            Price
+                        </th>
+                        <th>
+                            Type
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for key in ticket_24 %}
+                        <tr>
+                            {% for n in key %}
+                                <td>{{ n }}</td>
+                            {% endfor %}
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <!-- ticket 58 -->
+        <div class="col-md-3">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Maker</th>
+                        <th>Type</th>
+                        <th>Percentage</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for key in ticket_58 %}
+                        <tr>
+                            {% for n in key %}
+                                <td>{{ n }}</td>
+                            {% endfor %}
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <!-- ticket 85 -->
+        <div class="col-md-3">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        {% for key, value in ticket_20.items %}
+                            <th>{{ key }}</th>
+                        {% endfor %}
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        {% for key, value in ticket_20.items %}
+                            <td>{{ value }}</td>
+                        {% endfor %}
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+    
 {% endblock content %}
