@@ -76,3 +76,11 @@ class Product(models.Model):
 
     def __unicode__(self):
         return u"%s %s %s" % (self.marker, self.content_object.model, type_product)
+
+
+class Tickets(models.Model):
+    name = models.CharField(max_length=20)
+    context = models.CharField(max_length=255)
+
+    def __unicode__(self):
+        return u"%s" % (self.name)
