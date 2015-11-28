@@ -80,7 +80,7 @@ class Product(models.Model):
 
 class Tickets(models.Model):
     name = models.CharField(max_length=20)
-    context = models.CharField(max_length=255)
+    context = models.TextField()
 
     def __unicode__(self):
         return u"%s" % (self.name)
