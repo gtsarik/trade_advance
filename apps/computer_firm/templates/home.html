@@ -9,105 +9,159 @@
     <div class="row">
         {% for ticket in tikets %}
             <div class="col-md-3">
-                <b>{{ ticket.name }}</b><br />
-                {{ ticket.context }}<br />
+                <a href="javascript://" data-id="{{ ticket.id }}" onClick="toggleDisplay(this)"><b>{{ ticket.name }}</b></a>
+                <div id="id_ticket_context_{{ ticket.id }}" style="display: none">{{ ticket.context }}</div><br />
             </div>
         {% endfor %}
     </div>
 
     <!-- tickets: decisions -->
     <div class="row">
-        <!-- ticket 20 -->
-        <div class="col-md-3">
-            <table class="table table-striped">
-                <thead>
-                    <tr>
-                        <th>Maker</th>
-                        <th>Amount</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {% for key in ticket_20 %}
-                        <tr>
-                            {% for n in key %}
-                                <td>{{ n }}</td>
-                            {% endfor %}
-                        </tr>
-                    {% endfor %}
-                </tbody>
-            </table>
-        </div>
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <!-- ticket 20 -->
+            <div class="col-md-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading_1">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse_1" aria-expanded="true" aria-controls="collapse_1">
+                            решение
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse_1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_1">
+                        <div class="panel-body">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Maker</th>
+                                        <th>Amount</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for key in ticket_20 %}
+                                        <tr>
+                                            {% for n in key %}
+                                                <td>{{ n }}</td>
+                                            {% endfor %}
+                                        </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-        <!-- ticket 24 -->
-        <div class="col-md-3">
-            <table class="table table-striped">
-                <thead>
-                    <tr>
-                        <th>
-                            Model
-                        </th>
-                        <th>
-                            Price
-                        </th>
-                        <th>
-                            Type
-                        </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {% for key in ticket_24 %}
-                        <tr>
-                            {% for n in key %}
-                                <td>{{ n }}</td>
-                            {% endfor %}
-                        </tr>
-                    {% endfor %}
-                </tbody>
-            </table>
-        </div>
+            <!-- ticket 24 -->
+            <div class="col-md-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading_2">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse_2" aria-expanded="true" aria-controls="collapse_2">
+                            решение
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse_2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_2">
+                        <div class="panel-body">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            Model
+                                        </th>
+                                        <th>
+                                            Price
+                                        </th>
+                                        <th>
+                                            Type
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for key in ticket_24 %}
+                                        <tr>
+                                            {% for n in key %}
+                                                <td>{{ n }}</td>
+                                            {% endfor %}
+                                        </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-        <!-- ticket 58 -->
-        <div class="col-md-3">
-            <table class="table table-striped">
-                <thead>
-                    <tr>
-                        <th>Maker</th>
-                        <th>Type</th>
-                        <th>Percentage</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {% for key in ticket_58 %}
-                        <tr>
-                            {% for n in key %}
-                                <td>{{ n }}</td>
-                            {% endfor %}
-                        </tr>
-                    {% endfor %}
-                </tbody>
-            </table>
-        </div>
+            <!-- ticket 58 -->
+            <div class="col-md-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading_3">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse_3" aria-expanded="true" aria-controls="collapse_3">
+                            решение
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse_3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_3">
+                        <div class="panel-body">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Maker</th>
+                                        <th>Type</th>
+                                        <th>Percentage</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for key in ticket_58 %}
+                                        <tr>
+                                            {% for n in key %}
+                                                <td>{{ n }}</td>
+                                            {% endfor %}
+                                        </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-        <!-- ticket 85 -->
-        <div class="col-md-3">
-            <table class="table table-striped">
-                <thead>
-                    <tr>
-                        {% for key, value in ticket_20.items %}
-                            <th>{{ key }}</th>
-                        {% endfor %}
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        {% for key, value in ticket_20.items %}
-                            <td>{{ value }}</td>
-                        {% endfor %}
-                    </tr>
-                </tbody>
-            </table>
+            <!-- ticket 85 -->
+            <div class="col-md-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading_4">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse_4" aria-expanded="true" aria-controls="collapse_4">
+                            решение
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse_4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_4">
+                        <div class="panel-body">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Maker</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                   {% for key in ticket_85 %}
+                                        <tr>
+                                            {% for n in key %}
+                                                <td>{{ n }}</td>
+                                            {% endfor %}
+                                        </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
     </div>
+    <!-- end tickets: decisions -->
     
 {% endblock content %}

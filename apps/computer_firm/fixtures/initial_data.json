@@ -1,34 +1,34 @@
 [
 	{
-        "model": "computer_firm.marker",
+        "model": "computer_firm.maker",
         "pk": 1,
         "fields": {
             "name": "A"
         }
     },
     {
-        "model": "computer_firm.marker",
+        "model": "computer_firm.maker",
         "pk": 2,
         "fields": {
             "name": "B"
         }
     },
     {
-        "model": "computer_firm.marker",
+        "model": "computer_firm.maker",
         "pk": 3,
         "fields": {
             "name": "C"
         }
     },
     {
-        "model": "computer_firm.marker",
+        "model": "computer_firm.maker",
         "pk": 4,
         "fields": {
             "name": "D"
         }
     },
     {
-        "model": "computer_firm.marker",
+        "model": "computer_firm.maker",
         "pk": 5,
         "fields": {
             "name": "E"
@@ -314,7 +314,7 @@
         "model": "computer_firm.product",
         "pk": 1,
         "fields": {
-        	"marker": 2,
+        	"maker": 2,
         	"model": "1121",
             "type_product": "PC",
             "content_type": 9,
@@ -325,7 +325,7 @@
         "model": "computer_firm.product",
         "pk": 2,
         "fields": {
-        	"marker": 1,
+        	"maker": 1,
         	"model": "1232",
             "type_product": "PC",
             "content_type": 9,
@@ -336,7 +336,7 @@
         "model": "computer_firm.product",
         "pk": 3,
         "fields": {
-        	"marker": 1,
+        	"maker": 1,
         	"model": "1233",
             "type_product": "PC",
             "content_type": 9,
@@ -347,7 +347,7 @@
         "model": "computer_firm.product",
         "pk": 4,
         "fields": {
-        	"marker": 5,
+        	"maker": 5,
         	"model": "1260",
             "type_product": "PC",
             "content_type": 9,
@@ -358,7 +358,7 @@
         "model": "computer_firm.product",
         "pk": 5,
         "fields": {
-        	"marker": 1,
+        	"maker": 1,
         	"model": "1276",
             "type_product": "Printer",
             "content_type": 10,
@@ -369,7 +369,7 @@
         "model": "computer_firm.product",
         "pk": 6,
         "fields": {
-        	"marker": 4,
+        	"maker": 4,
         	"model": "1288",
             "type_product": "Printer",
             "content_type": 10,
@@ -380,7 +380,7 @@
         "model": "computer_firm.product",
         "pk": 7,
         "fields": {
-        	"marker": 1,
+        	"maker": 1,
         	"model": "1298",
             "type_product": "Laptop",
             "content_type": 7,
@@ -391,7 +391,7 @@
         "model": "computer_firm.product",
         "pk": 8,
         "fields": {
-        	"marker": 3,
+        	"maker": 3,
         	"model": "1321",
             "type_product": "Laptop",
             "content_type": 7,
@@ -402,7 +402,7 @@
         "model": "computer_firm.product",
         "pk": 9,
         "fields": {
-        	"marker": 1,
+        	"maker": 1,
         	"model": "1401",
             "type_product": "Printer",
             "content_type": 10,
@@ -413,7 +413,7 @@
         "model": "computer_firm.product",
         "pk": 10,
         "fields": {
-        	"marker": 1,
+        	"maker": 1,
         	"model": "1408",
             "type_product": "Printer",
             "content_type": 10,
@@ -424,7 +424,7 @@
         "model": "computer_firm.product",
         "pk": 11,
         "fields": {
-        	"marker": 4,
+        	"maker": 4,
         	"model": "1433",
             "type_product": "Printer",
             "content_type": 10,
@@ -435,7 +435,7 @@
         "model": "computer_firm.product",
         "pk": 12,
         "fields": {
-        	"marker": 5,
+        	"maker": 5,
         	"model": "1434",
             "type_product": "Printer",
             "content_type": 10,
@@ -446,7 +446,7 @@
         "model": "computer_firm.product",
         "pk": 13,
         "fields": {
-        	"marker": 2,
+        	"maker": 2,
         	"model": "1750",
             "type_product": "Laptop",
             "content_type": 7,
@@ -457,7 +457,7 @@
         "model": "computer_firm.product",
         "pk": 14,
         "fields": {
-        	"marker": 1,
+        	"maker": 1,
         	"model": "1752",
             "type_product": "Laptop",
             "content_type": 7,
@@ -468,7 +468,7 @@
         "model": "computer_firm.product",
         "pk": 15,
         "fields": {
-        	"marker": 5,
+        	"maker": 5,
         	"model": "2113",
             "type_product": "PC",
             "content_type": 9,
@@ -479,7 +479,7 @@
         "model": "computer_firm.product",
         "pk": 16,
         "fields": {
-        	"marker": 5,
+        	"maker": 5,
         	"model": "2112",
             "type_product": "PC",
             "content_type": 9,

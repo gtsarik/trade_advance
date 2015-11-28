@@ -4,7 +4,7 @@ from django.contrib.contenttypes.models import ContentType
 from django.contrib.contenttypes import generic
 
 
-class Marker(models.Model):
+class Maker(models.Model):
     ''' Model Marker '''
     name = models.CharField(max_length=50)
 
@@ -68,7 +68,7 @@ class Printer(models.Model):
 
 
 class Product(models.Model):
-    marker = models.ForeignKey(Marker)
+    maker = models.ForeignKey(Maker)
     model = models.CharField(max_length=50)
     type_product = models.CharField(max_length=50)
     content_type = models.ForeignKey(ContentType)
@@ -76,7 +76,7 @@ class Product(models.Model):
     content_object = generic.GenericForeignKey('content_type', 'object_id')
 
     def __unicode__(self):
-        return u"%s %s %s" % (self.marker, self.content_object.model, self.type_product)
+        return u"%s %s %s" % (self.maker, self.content_object.model, self.type_product)
 
 
 class Tickets(models.Model):

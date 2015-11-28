@@ -32,6 +32,15 @@
         <!-- End Content Columns -->
     </div>
 
+    <script type="text/javascript">
+        function toggleDisplay(root_log_element) {
+            var log_id = root_log_element.getAttribute("data-id");
+            var log_element = document.getElementById("id_ticket_context_" + log_id);
+            log_element.style.display = log_element.style.display == "none" ? "block" : "none";
+            return false;
+        }
+    </script>
+
     <!-- Javascripts Inclusion -->
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 

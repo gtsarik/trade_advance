@@ -29,7 +29,7 @@ class Migration(migrations.Migration):
             bases=(models.Model,),
         ),
         migrations.CreateModel(
-            name='Marker',
+            name='Maker',
             fields=[
                 ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
                 ('name', models.CharField(max_length=50)),
@@ -74,7 +74,7 @@ class Migration(migrations.Migration):
                 ('type_product', models.CharField(max_length=50)),
                 ('object_id', models.PositiveIntegerField()),
                 ('content_type', models.ForeignKey(to='contenttypes.ContentType')),
-                ('marker', models.ForeignKey(to='computer_firm.Marker')),
+                ('maker', models.ForeignKey(to='computer_firm.Maker')),
             ],
             options={
             },
